@@ -103,8 +103,51 @@ nav li a{
         font-weight: 700;
     }
     /* features styles */
+        .features{
+            display: flex;
+            margin-top: 130px;
+            gap: 146px;
+        }
+        .feature-content .card{
+            border-radius: 8px;
+            background: #FFF;
+            box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+            padding: 30px;
+            margin-bottom: 20px;
+        }
+        .features .title-color{
+            border-left: 5px solid #FF900E;
+            padding-left: 20px;
+            
+        }
+        .feature-img img{
+            height: 90%;
+            margin-left: 90px;
+        }
+        .ten-years{
+            border-radius: 8px;
+            background: #FF900E;
+            color: #FFF;
+            text-align: center;
+            width: 342px;
+            padding: 40px;
+            position: relative;
+            bottom: 100px;
+        }
+        .ten-years h2{
+            font-size: 4rem;
+            font-weight: 700;
+            margin: 0;
+        }
+        .ten-years p{
+            font-size: 25px;
+            font-weight: 500;
+        }
 
     /* facts styles */
+    .facts{
+        margin-top: 130px;
+    }
     .title-color{
         color:#131313;
         font-size: 2.8rem;
@@ -140,6 +183,7 @@ nav li a{
     /* sponsors styles */
     .sponsors{
         text-align: center;
+        margin-top: 180px;
     }
     .sponsors-img-container{
         display: flex;
